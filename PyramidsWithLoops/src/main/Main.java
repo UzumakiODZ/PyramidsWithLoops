@@ -9,17 +9,41 @@
      4444444
     555555555 
 */
-package main;
+*/
+package com.github;
 
 public class Main {
 
-	public static void main(String[] args) {
-		int lines = 5;
-		for (int i = 0; i < lines; i++) {
-			for (int j = 0; j < i+1; j++) {
-				System.out.print(j);
-			}
-			System.out.println("");
-		}
-	}
+public static void main(String[] args) {
+
+  
+
+ for (int a = 1; a <= 5; a++)
+
+        {
+
+ for (int b = 5 - a; b >= 1;b--)
+
+            {
+
+                System.out.print(" ");
+
+            }
+
+for (int b = 1; b <= 2 * a - 1; b++)
+
+            {
+
+                System.out.print(a);
+
+            }
+
+            System.out.println();
+
+        }
+
+   
+
+  }
+
 }
